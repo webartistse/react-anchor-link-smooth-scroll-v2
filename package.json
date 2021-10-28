@@ -1,10 +1,10 @@
 {
-  "name": "react-anchor-link-smooth-scroll",
-  "version": "1.0.11",
+  "name": "react-anchor-link-smooth-scroll-v2",
+  "version": "2.0.0",
   "description": "React component for anchor links using the smoothscroll polyfill.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mauricevancooten/react-anchor-link-smooth-scroll.git"
+    "url": "git+https://github.com/webartistse/react-anchor-link-smooth-scroll-v2.git"
   },
   "keywords": [
     "scroll",
@@ -15,12 +15,12 @@
     "polyfill",
     "javascript"
   ],
-  "author": "Maurice van Cooten",
+  "author": "Johan Bengtsson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mauricevancooten/react-anchor-link-smooth-scroll/issues"
+    "url": "https://github.com/webartistse/react-anchor-link-smooth-scroll-v2/issues"
   },
-  "homepage": "https://github.com/mauricevancooten/react-anchor-link-smooth-scroll#readme",
+  "homepage": "https://github.com/webartistse/react-anchor-link-smooth-scroll-v2#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
