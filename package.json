@@ -1,6 +1,6 @@
 {
   "name": "react-anchor-link-smooth-scroll-v2",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "React component for anchor links using the smoothscroll polyfill.",
   "repository": {
     "type": "git",
