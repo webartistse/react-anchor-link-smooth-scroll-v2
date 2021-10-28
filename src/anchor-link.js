@@ -27,12 +27,17 @@ class AnchorLink extends Component {
       }
       const id = e.currentTarget.getAttribute('href').slice(1)
       const $anchor = document.getElementById(id);
-      if ($anchor) {
-        const offsetTop = $anchor.getBoundingClientRect().top + window.pageYOffset;
+      // Check if the change occurs for the x or y axis
+      if ($anchor && $anchor.getBoundingClientRect().top !== 0) {
         window.scroll({
-          top: offsetTop - offset(),
+          top: $anchor.getBoundingClientRect().top + window.pageYOffset - offset(),
           behavior: 'smooth'
-        })
+        });
+      } else if ($anchor && $anchor.getBoundingClientRect().left !== 0) {
+        window.scroll({
+          left: $anchor.getBoundingClientRect().left + window.pageXOffset - offset(),
+          behavior: 'smooth'
+        });
       }
       if (this.props.onClick) {this.props.onClick(e)}
     }, 0);
